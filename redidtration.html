@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="main">
+        <input type="checkbox" id="chk">
+    <div class="Signup">
+        <form action="{{ url_for('register') }}" method="post">
+        <label for="chk">Sign up</label><br>
+        <input type="text" name="username" placeholder="Username" class="textbox"/><br>
+        <input type="text" name="email" placeholder="E-mail" class="textbox"/><br>
+        <input type="password" name="password" placeholder="Password" class="textbox"/><br>
+        <input type="password" name="confirm-password" placeholder="Confirm Password" class="textbox"/><br>
+        <div class="msg"></div>
+        <button>Sign Up</button><br>
+    </form>    
+    </div>
+    <div class="Login">
+        <form action="{{ url_for('login') }}" method="post"></form>
+        <label for="chk" aria-hidden="true">Login</label>
+        <input type="text" name="username" placeholder="Username" class="textbox"/><br>
+        <input type="password" name="password" placeholder="Password" class="textbox"/><br>
+        <div class="msg"></div>
+        <button>Login</button>
+    </form>
+    </div>
+    </div>
+</body>
+</html>

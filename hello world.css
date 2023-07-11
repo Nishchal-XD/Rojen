@@ -1,0 +1,123 @@
+/* *{
+    font-size: 100px;
+}
+.one{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 300px;
+}
+.two{
+    
+    display:flex ;
+}
+.red{
+    
+    color: red;
+
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.red1{
+    color: red;
+}
+.blue1{
+    color: blue;
+}
+.red:hover{
+    transition: 30px;
+    transition: 5s;
+    color: blueviolet;
+    background-color: black;
+    font-size: 120px;
+    display: block;
+}x */
+*{
+    font-size: 100px;
+}
+.one{
+    position: relative;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.two{
+    
+    display:flex ;
+}
+
+.red{
+    
+    color: red;
+
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.red1{
+    color: red;
+}
+.blue1{
+    color: blue;
+}
+/* .red:hover{
+    transition: 30px;
+    transition: 5s;
+    color: blueviolet;
+    background-color: black;
+    font-size: 120px;
+    display: block;
+} */
+.link
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+}
+input
+{
+    font-size: 40px;
+    justify-content: center;
+}
+.search
+{
+    display: flex;
+    margin-right:45%;
+    border-radius: 200px;
+
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+
+
+
+}
+button .src{
+height: 50px;
+position: relative;
+}

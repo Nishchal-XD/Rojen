@@ -1,0 +1,40 @@
+
+.memo{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 300px;
+}
+.memo2{
+    display:flex ;
+}
+.demo{
+    
+    border-radius: 10%;
+    }
+    .temp{
+        border-radius: 1%;
+    }
+    .red{
+        color: red;
+    }
+    .blue{
+        color: blue;
+    }
+    .green{
+        color: green;
+    }
+    .yellow{
+        color: yellow;
+    }
+    .red1{
+        color: red;
+    }
+    .blue1{
+        color: blue;
+    }
+    .temp{
+        border-radius: 5%;
+    }
+    

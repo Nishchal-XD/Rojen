@@ -1,0 +1,16 @@
+.demo{
+    height: 120px;
+    width: 200px;
+    background-color: black;
+}
+.container{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    margin-left: 100px;
+}
+.memo{
+    height: 120px;
+    width: 200px;
+    background-color: black;
+}
